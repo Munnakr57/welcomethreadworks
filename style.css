@@ -807,7 +807,7 @@ a.brinjal {
 #testimo button.owl-dot.active {
     background-color: #f5f5f5;
 }
-.common-heading h3 {
+.common-heading h3, .common-heading h1, .common-heading h2 {
     font-size: 2.5em;
     color: #5C5C5C;
     margin-bottom: 20px;
@@ -839,4 +839,125 @@ a.brinjal {
 }
 .our-store-section {
     padding: 0 0 50px;
+}
+/* --------------------------------------------our story page--------------------------------------------- */
+
+/* story pages */
+.story-banner-row {
+    display: flex;
+    align-items: flex-end;
+    background-color: #A80016;
+    border-radius: 20px;
+}
+.story-bannner-content-col {
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 20px;
+    height: 100%;
+}
+.story-banner-image-col {
+    width: 50%;
+    padding: 20px;
+    position: relative;
+}
+.story-banner-content p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin-bottom: 40px;
+}
+.story-banner-content {
+    padding: 0 20px;
+}
+.story-banner-image img {
+    width: 100%;
+    object-fit: contain;
+}
+.our-story-section .container{
+    background-color: #FAFAFA;
+    padding: 30px 40px;
+}
+.our-story-section .common-heading h1{
+    text-align: left;
+    margin-bottom: 30px;   
+}
+/* introducing threadwork */
+.introducing-threadwork {
+    padding: 30px 0;
+}
+.introducing-threadwork .common-heading h2 {
+    text-align: left;
+    margin-bottom:100px;
+    position: relative;
+    padding-right:30px;
+}
+.thread-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.thread-col {
+    width: 50%;
+    padding: 0 20px 0 0;
+}
+.thread-col p {
+     font-size: 1em;
+    color: #555;
+    line-height: 1.6em;
+    font-weight: 400;
+    position:relative;
+     width: 75%;
+}
+.thread-col h3 {
+     font-size: 1.2em;
+    color: #333;
+    line-height: 1.6em; 
+    padding-right:20px;
+    position:relative;
+    font-weight: 600;
+    width: 75%;
+}
+.thread-col h3:before, .thread-col p:before {
+    content: "";
+    background: #DB232A;
+    width: 70px;
+    height: 4px;
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+.introducing-threadwork {
+    padding: 50px 0;
+}
+
+/* threadwork triangle section */
+
+.thread-triangle-section .container {
+    background-color: #F5F5F5;
+        padding: 30px 40px;
+}
+.triangle-row {
+    display: flex;
+    align-items: center;
+}
+.triangle-col {
+    width: 50%;
+}
+.info-image img {
+    max-width: 100%;
+    object-fit: contain;
+
+}
+.triangle-content p {
+    font-size: 0.8em;
+    line-height: 1.6em;
+    text-align: right;
+    color:#5c5f5c;
+    width:80%;
+
+}
+.triangle-content {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
 }
