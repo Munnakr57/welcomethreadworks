@@ -690,7 +690,7 @@ a.brinjal {
 
 /* testimo section */
 .testimonial-section {
-    padding: 40px 0 30px;
+    padding: 0px 0 30px;
 }
 .testimonial-row {
     display: flex;
