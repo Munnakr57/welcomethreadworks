@@ -764,7 +764,9 @@ a.brinjal {
 #testimo .owl-nav .owl-next span {
     font-size: 25px;
 }
-
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block !important;
+}
 @keyframes slideInRight {
     from {
       transform: translateX(100%);
