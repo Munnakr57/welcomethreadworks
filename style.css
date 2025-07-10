@@ -1215,6 +1215,7 @@ a.brinjal {
     .info-image img {
         width: 100%;
         height: auto;
+        margin-bottom: 20px;
     }
     .triangle-content {
         width: 100%;
@@ -1223,7 +1224,7 @@ a.brinjal {
     }
     .triangle-content p {
         width: 100%;
-        text-align: center;
+        text-align: left;
         font-size: 0.9em;
     }
     .our-product-section {
@@ -1611,7 +1612,7 @@ a.brinjal {
 .social-share {
     margin: 0 0 30px;
 }
- .footer-menu-links {
+.footer-menu-links {
     width: 100%;
     flex-direction: column;
     padding: 0 20px;
@@ -1627,24 +1628,28 @@ a.brinjal {
 .footer-menu-links h3 {
     font-size: 1.3em;
 }
-    .our-story-section .container {
-        padding: 30px 0px;
-    }
-    .introducing-threadwork .common-heading h2 {
-        padding-left: 20px;
-    }
-    .introducing-threadwork {
-    padding: 50px 0 0px;
-    }
-    .thread-triangle-section .container {
-        padding: 30px 0px;
-    }
-    .our-team-section .container {
-        padding: 30px 20px;
-    }
-
-
-
+.our-story-section .container {
+    padding: 30px 0px;
+}
+.introducing-threadwork .common-heading h2 {
+    padding-left: 20px;
+}
+.introducing-threadwork {
+padding: 50px 0 0px;
+}
+.thread-triangle-section .container {
+    padding: 30px 0px;
+}
+.our-team-section .container {
+    padding: 30px 20px;
+}
+.our-story-section .common-heading h1 {
+    padding-left: 15px;
+}
+.our-team-col:last-child {
+    margin-bottom: 0;
+}
+.contact-details h3 { font-size: 1.3em;}
 
 
 }
