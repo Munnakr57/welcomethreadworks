@@ -1005,109 +1005,34 @@ a.brinjal {
 /* ---------------------------------Responsive css -------------------------------------------- */
 
 @media(min-width:769px) and (max-width: 991px) {
-   .banner-content h1 {
-    font-size: 4em;
-    line-height: .8em;
-    }
-    .banner-content h1 .line-break {
-        display: none;
-    }
-    .banner-content h1 .letter {
-        font-size: 0.8em;
-    }
-    header h1 {
-        font-size: 2em;
-    }
-    header nav ul li a {
-        font-size: 0.9em;
-    }
-    .search-container a i {
-        font-size: 1.2em;
-    }
-    header nav {
-    display: none;
-    }
-    .search-container {
-        text-align: center;
-        margin: 20px 0;
-        display: flex;
-    }
-    .search-container a {
-        font-size: 0.9em;
-        padding: 8px 4px;
-    }
-    .search-container a i {
-        font-size: 1.2em;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    .footer-logo {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .footer-menu-links {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    .btn-text {
-        flex-direction: column;
-    }
-    .container {
-    width: 100%;
-    }
-    .strip-section {
-        padding: 0px 20px 50px;
-    }
-    .strip-row { 
-        padding: 60px 10px 35px;
-    }
-    .product-list li {
-        font-size: 1.5em;
-    }
-    .our-product-section h3 {
-        font-size: 2.3em;
-    }
-    .best-seller-section {
-        padding: 50px 20px;
-    }
-    .best-sale-content h4 {
-        font-size: 1em;
-    }
-    .our-product-section {
-        padding: 0 0 50px;
-    }
-    .strip-icon {
-    padding: 20px;
-    border-right: 2px solid #9D9D9D;
-    height: 70px;
-    border-radius: 50%;
-}
-    .brand-row {
-        flex-direction: column;
-    }
-    .our-client-col {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .brand-col {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .contact-details {
-        width: 100%;
-    }
-    #testimo .owl-nav .owl-next {
-        left: 15%;
-    }
+.banner-content h1 {font-size: 4em; line-height: .8em;}
+.banner-content h1 .line-break {display: none;}
+.banner-content h1 .letter {font-size: 0.8em;}
+header h1 {font-size: 2em;}
+header nav ul li a { font-size: 0.9em;}
+.search-container a i {font-size: 1.2em;}
+header nav {display: none;}
+.search-container {text-align: center; margin: 20px 0;display: flex;}
+.search-container a {font-size: 0.9em; padding: 8px 4px;}
+.search-container a i {font-size: 1.2em;}
+.footer-content { flex-direction: column; align-items: center;}
+.footer-logo { width: 100%; text-align: center; margin-bottom: 20px;}
+.footer-menu-links { width: 100%;  margin-bottom: 20px;}
+.btn-text { flex-direction: column;}
+.container { width: 100%;}
+.strip-section { padding: 0px 20px 50px; }
+.strip-row {  padding: 60px 10px 35px;}
+.product-list li {font-size: 1.5em;}
+.our-product-section h3 { font-size: 2.3em; }
+.best-seller-section { padding: 50px 20px;}
+.best-sale-content h4 { font-size: 1em;}
+.our-product-section {padding: 0 0 50px;}
+.strip-icon { padding: 20px; height: 70px;}
+.brand-row { flex-direction: column;}
+.our-client-col { width: 100%;margin-bottom: 30px;}
+.brand-col {width: 100%; display: flex; flex-wrap: wrap; justify-content: center;}
+.contact-details { width: 100%;}
+#testimo .owl-nav .owl-next { left: 15%;}
     
    
 
@@ -1120,534 +1045,448 @@ a.brinjal {
 
 
 @media (max-width: 768px) {
-    .our-team-row {
-        flex-direction: column;
-    }
-    .our-team-col {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .team-content {
-        width: 100%;
-    }
-    .team-image {
-        margin-bottom: 20px;
-    }
-    .story-banner-row {
-        flex-direction: column;
-    }
-    
-    .story-bannner-content-col, .story-banner-image-col {
-        width: 100%;
-        padding: 20px;
-    }
-    .story-banner-image img {
-        width: 100%;
-        height: auto;
-    }
-    .story-banner-content p {
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-    .story-banner-content {
-        padding: 0 20px;
-    }
-    .story-banner-content h1 {
-        font-size: 2.5em;
-        margin-bottom: 20px;
-    }
-    .story-banner-content h2 {
-        font-size: 2em;
-        margin-bottom: 10px;
-    }
-    .story-banner-content h3 {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-    }
-    .story-banner-content h4 {
-        font-size: 1.2em;
-        margin-bottom: 10px;
-    }
-    .story-banner-content h5 {
-        font-size: 1em;
-        margin-bottom: 10px;
-    }
-    .story-banner-content h6 {
-        font-size: 0.8em;
-        margin-bottom: 10px;
-    }
-    .story-banner-content p {
-        font-size: 14px;
-        line-height: 1.4em;
-    }
-    .story-banner-content {
-        padding: 0 20px;
-    }
-    .introducing-threadwork .common-heading h2 {
-        text-align: left;
-        margin-bottom: 50px;
-    }
-    .thread-row {
-        flex-direction: column;
-    }
-    .thread-col {
-        width: 100%;
-        padding: 0 20px;
-        margin-bottom: 30px;
-    }
-    .thread-col p {
-        width: 100%;
-        font-size: 0.9em;
-    }
-    .thread-col h3 {
-        width: 100%;
-        font-size: 1.2em;
-        margin-bottom: 20px;
-    }
-    .triangle-row {
-        flex-direction: column;
-    }
-    .triangle-col {
-        width: 100%;
-        padding: 0 20px;
-        margin-bottom: 0px;
-    }
-    .info-image img {
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
-    }
-    .triangle-content {
-        width: 100%;
-        text-align: center;
-        align-items: flex-start;
-    }
-    .triangle-content p {
-        width: 100%;
-        text-align: left;
-        font-size: 0.9em;
-    }
-    .our-product-section {
-        padding: 0 20px;
-    }
-    .product-section {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0 0;
-    }
-   
-    
-    .product-item {
-        width: 100%;
-        max-width: 300px;
-        margin: 20px;
-    }
-    .product-item img {
-        width: 100%;
-        height: auto;
-    }
-    .product-item h4 {
-        font-size: 1.2em;
-        margin: 10px 0;
-    }
-    .product-item p {
-        font-size: 0.9em;
-        color: #555;
-    }
-    .product-item a {
-        font-size: 0.8em;
-        padding: 8px 15px;
-    }
-    .product-list li {
-        font-size: 1.5em;
-        margin-bottom: 15px;
-    }
-    .product-image img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-    }
-    .product-row {
-        flex-direction: column;
-        align-items: center;
-    }
-    .product-col {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .product-btn p {
-        width: 100%;
-        font-size: 0.9em;
-    }
-    #testimo .owl-dots {
-    left: 0px;
-    bottom: 0px;
-}
-    #testimo button.owl-dot {
-        width: 10px;
-        height: 10px;
-    
-    }
-    .common-heading h3, .common-heading h1, .common-heading h2 {
-        font-size: 2em;
-        text-align: left;
-    }
+.our-team-row {flex-direction: column;}
+.our-team-col { width: 100%;margin-bottom: 30px;}
+.team-content { width: 100%;}
+.team-image {margin-bottom: 20px;}
+.story-banner-row {flex-direction: column;}
+.story-bannner-content-col, .story-banner-image-col { width: 100%;padding: 20px;}
+.story-banner-image img { width: 100%; height: auto;}
+.story-banner-content p { font-size: 14px; margin-bottom: 20px;}
+.story-banner-content {padding: 0 20px;}
+.story-banner-content h1 {font-size: 2.5em; margin-bottom: 20px;}
+.story-banner-content h2 {font-size: 2em; margin-bottom: 10px;}
+.story-banner-content h3 { font-size: 1.5em; margin-bottom: 10px;}
+.story-banner-content h4 {font-size: 1.2em; margin-bottom: 10px;}
+.story-banner-content h5 {font-size: 1em; margin-bottom: 10px;}
+.story-banner-content h6 { font-size: 0.8em; margin-bottom: 10px;}
+.story-banner-content p {font-size: 14px;line-height: 1.4em;}
+.story-banner-content { padding: 0 20px;}
+.introducing-threadwork .common-heading h2 {text-align: left; margin-bottom: 50px;}
+.thread-row {flex-direction: column;}
+.thread-col { width: 100%; padding: 0 20px; margin-bottom: 30px;}
+.thread-col p { width: 100%;font-size: 0.9em;}
+.thread-col h3 { width: 100%;font-size: 1.2em; margin-bottom: 20px;}
+.triangle-row { flex-direction: column;}
+.triangle-col { width: 100%; padding: 0 20px; margin-bottom: 0px;}
+.info-image img {width: 100%; height: auto; margin-bottom: 20px;}
+.triangle-content {width: 100%;text-align: center; align-items: flex-start;}
+.triangle-content p {width: 100%; text-align: left; font-size: 0.9em;}
+.our-product-section { padding: 0 20px;}
+.product-section { flex-direction: column; align-items: flex-start;padding: 0 0;}
 
-    .header-section {
-        flex-direction: column;
-        align-items: center;
-    }
-    header h1 {
-        font-size: 2em;
-        text-align: center;
-    }
-    header nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-    header nav ul li a {
-        font-size: 1em;
-    }
-    .search-container {
-        text-align: center;
-        margin: 20px 0;
-        display: flex;
-    }
-    .search-container a i {
-        font-size: 1.2em;
-    }
-    .search-container a {
-        font-size: 0.9em;
-        padding: 8px 4px;
-    }
-    header nav {
+
+.product-item {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px;
+}
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+.product-item h4 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.product-item p {
+    font-size: 0.9em;
+    color: #555;
+}
+.product-item a {
+    font-size: 0.8em;
+    padding: 8px 15px;
+}
+.product-list li {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.product-row {
+    flex-direction: column;
+    align-items: center;
+}
+.product-col {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.product-btn p {
+    width: 100%;
+    font-size: 0.9em;
+}
+#testimo .owl-dots {
+left: 0px;
+bottom: 0px;
+}
+#testimo button.owl-dot {
+    width: 10px;
+    height: 10px;
+
+}
+.common-heading h3, .common-heading h1, .common-heading h2 {
+    font-size: 2em;
+    text-align: left;
+}
+
+.header-section {
+    flex-direction: column;
+    align-items: center;
+}
+header h1 {
+    font-size: 2em;
+    text-align: center;
+}
+header nav ul li {
+    display: block;
+    margin: 10px 0;
+}
+header nav ul li a {
+    font-size: 1em;
+}
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+}
+.search-container a i {
+    font-size: 1.2em;
+}
+.search-container a {
+    font-size: 0.9em;
+    padding: 8px 4px;
+}
+header nav {
+display: none;
+}
+.banner-content {
+width: 92%;
+}
+.banner-content h1 {
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1;
+}
+.banner-content h1 .line-break {
     display: none;
 }
-    .banner-content {
-    width: 92%;
-    }
-    .banner-content h1 {
-        font-size: 1.1em;
-        text-align: center;
-        line-height: 1;
-    }
-    .banner-content h1 .line-break {
-        display: none;
-    }
-    .banner-content h1 .letter {
-        font-size: 2em;
-        animation: slideUp 0.8s forwards;
-    }
-   
-   .banner-image img {
-    height: 280px;
+.banner-content h1 .letter {
+    font-size: 2em;
+    animation: slideUp 0.8s forwards;
 }
-    .discount-row {
-        flex-direction: column;
-    }
-    .discount-col {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .discount-image img {
-        width: 100%;
-        height: auto;
-    }
-    .best-seller-section {
-        padding: 40px 20px;
-    }
-    .best-sale-row {
-        flex-direction: column;
-    }
-    .best-seller-item {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .best-seller-item img {
-        width: 100%;
-        height: auto;
-    }
-    .best-sale-content {
-        padding: 20px;
-        text-align: center;
-    }
-    .best-sale-content h4 {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-    }
-    .best-sale-content p {
-        font-size: 1.2em;
-        margin-bottom: 10px;
-    }
-    .best-sale-content a {
-        font-size: 1em;
-        padding: 10px 0px;
-    }
-    .our-product-section h3 {
-    font-size: 2.2em;
-    text-align: left;
-    margin-right: 0;
-}
-    .logo-section {
-        padding: 20px 0;
-    }
-    .logo-track {
-        align-items: center;
-    }
-    .logo-track li {
-        margin: 10px 0;
-    }
-    .logo-track img {
-        height: 50px;
-    }
-    .strip-section {
-        padding: 20px 0;
-    }
-   .strip-row {
-    justify-content: space-between;
-    padding: 40px 20px 35px;
-}
-.why-threadworks {
-    padding: 0px 0 30px;
-}
-    .strip-col {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .strip-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .strip-icon {
-        margin-bottom: 20px;
-    }
-    .strip-icon i {
-        font-size: 40px;
-    }
-    .strip-text h4 {
-        font-size: 1.2em;
-        margin-bottom: 10px;
-        padding-right: 0;
-    }
-    .strip-text p {
-        font-size: 1em;
-        margin-bottom: 10px;
-    }
-    .product-btn a {
-        font-size: 0.9em;
-        padding: 10px 20px;
-    }
-    .brand-row {
-        flex-direction: column;
-        padding: 20px 20px 40px;
-    }
-    
-    .our-client-col {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .brand-col {
-        width: 100%;
-    }
-    .brand-col img {
-    width: auto;
-    height: auto;
-    margin: 0 10px 20px;
-}
-    .three-images-section {
-        padding: 20px 0;
-    }
-    .three-images-row {
-        flex-direction: column;
-    }
-    .image-col1, .image-col2 {
-        width: 100%;
-        margin-bottom: 0px;
-    }
-    .image-col img {
-        width: 100%;
-        height: auto;
-    }
-    .image-col2 img {
-        width: 100%;
-        height: 300px;
-    }
-    .image-col h3, .image-col2 h3 {
-        font-size: 1.5em;
-        left: 10px;
-        bottom: 42px;
-    }
-    .image-col1 {
-    padding: 0 0px;
-    }
-    .image-col2 {
-        padding: 0px 0 0 0px;
-    }
 
-    .why-threadworks-row {
-        flex-direction: column;
-         margin-bottom: 0px;
-    }
-.test-icon i {
-    font-size: 4em;
-   
-}
-.product-content {
-    padding: 0 0px 20px;
-}
-    .why-threadworks-col {
-        flex-direction: column;
-       
-    }
-    .why-threadworks-col h3 {
-        font-size: 2em;
-        margin-bottom: 20px;
-        width: 100%;
-    }
-    .why-threadworks-col p {
-        font-size: 0.9em;
-        width: 100%;
-    }
-    .why-threadworks-row2 {
-    padding: 0px 20px 0px;
-}
-    .why-threadworks-col2 {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    .thread-image img {
-        width: 100%;
-        height: 350px;
-    }
-    .thread-image h4 {
-        font-size: 1.5em;
-        left: 10px;
-        bottom: 30px;
-    }
-    .testimonial-section {
-        padding: 20px 0 0;
-    }
-    .testimonial-row {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
-    .testimonial-item {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .testimonial-col{
-        width: 100%;
-    }
-    .testimonial-item img {
-        width: 100%;
-        height: auto;
-    }
-    .testimonial-item h4 {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-    }
-    .testimonial-item p {
-        font-size: 1em;
-        margin-bottom: 10px;
-    }
-    .testimonial-item a {
-        font-size: 0.9em;
-        padding: 10px 20px;
-    }
-    .store-location {
-        width: 100%;
-        margin-top: 20px;
-    }
-    .store-location iframe {
-        height: 300px;
-    }
-    .store-content .common-heading h3 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .our-store-section {
-        padding: 20px 0;
-    }
-    .footer-section {
-        flex-direction: column;
-        align-items: center;
-    }
-    .btn-text {
-    flex-direction: column;
-   
-}.discount-image {
-    width: 50%;
-    height: 175px;
+.banner-image img {
+height: 280px;
 }
 .discount-row {
-    background-size: contain;
-    background-position: left bottom;
-   
+    flex-direction: column;
 }
-.discount-text p {
-    font-size: 2em;
-   
+.discount-col {
+    width: 100%;
+    margin-bottom: 30px;
 }
-.best-seller-section h3 {
-    font-size: 2.2em;
-    line-height: 1.2em;
-}
-.best-seller-item img {
-    width: auto;
-    object-fit: contain;
+.discount-image img {
+    width: 100%;
     height: auto;
 }
-.footer-content {
+.best-seller-section {
+    padding: 40px 20px;
+}
+.best-sale-row {
     flex-direction: column;
+}
+.best-seller-item {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.best-seller-item img {
+    width: 100%;
+    height: auto;
+}
+.best-sale-content {
+    padding: 20px;
+    text-align: center;
+}
+.best-sale-content h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.best-sale-content p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.best-sale-content a {
+    font-size: 1em;
+    padding: 10px 0px;
+}
+.our-product-section h3 {
+font-size: 2.2em;
+text-align: left;
+margin-right: 0;
+}
+.logo-section {
+    padding: 20px 0;
+}
+.logo-track {
+    align-items: center;
+}
+.logo-track li {
+    margin: 10px 0;
+}
+.logo-track img {
+    height: 50px;
+}
+.strip-section {
+    padding: 20px 0;
+}
+.strip-row {
+justify-content: space-between;
+padding: 40px 20px 35px;
+}
+.why-threadworks {
+padding: 0px 0 30px;
+}
+.strip-col {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.strip-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.strip-icon {
+    margin-bottom: 20px;
+}
+.strip-icon i {
+    font-size: 40px;
+}
+.strip-text h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    padding-right: 0;
+}
+.strip-text p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.product-btn a {
+    font-size: 0.9em;
+    padding: 10px 20px;
+}
+.brand-row {
+    flex-direction: column;
+    padding: 20px 20px 40px;
+}
+
+.our-client-col {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.brand-col {
+    width: 100%;
+}
+.brand-col img {
+width: auto;
+height: auto;
+margin: 0 10px 20px;
+}
+.three-images-section {
+    padding: 20px 0;
+}
+.three-images-row {
+    flex-direction: column;
+}
+.image-col1, .image-col2 {
+    width: 100%;
+    margin-bottom: 0px;
+}
+.image-col img {
+    width: 100%;
+    height: auto;
+}
+.image-col2 img {
+    width: 100%;
+    height: 300px;
+}
+.image-col h3, .image-col2 h3 {
+    font-size: 1.5em;
+    left: 10px;
+    bottom: 42px;
+}
+.image-col1 {
+padding: 0 0px;
+}
+.image-col2 {
+    padding: 0px 0 0 0px;
+}
+
+.why-threadworks-row {
+    flex-direction: column;
+        margin-bottom: 0px;
+}
+.test-icon i {
+font-size: 4em;
+
+}
+.product-content {
+padding: 0 0px 20px;
+}
+.why-threadworks-col {
+    flex-direction: column;
+    
+}
+.why-threadworks-col h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.why-threadworks-col p {
+    font-size: 0.9em;
+    width: 100%;
+}
+.why-threadworks-row2 {
+padding: 0px 20px 0px;
+}
+.why-threadworks-col2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.thread-image img {
+    width: 100%;
+    height: 350px;
+}
+.thread-image h4 {
+    font-size: 1.5em;
+    left: 10px;
+    bottom: 30px;
+}
+.testimonial-section {
+    padding: 20px 0 0;
+}
+.testimonial-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.testimonial-item {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.testimonial-col{
+    width: 100%;
+}
+.testimonial-item img {
+    width: 100%;
+    height: auto;
+}
+.testimonial-item h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.testimonial-item p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.testimonial-item a {
+    font-size: 0.9em;
+    padding: 10px 20px;
+}
+.store-location {
+    width: 100%;
+    margin-top: 20px;
+}
+.store-location iframe {
+    height: 300px;
+}
+.store-content .common-heading h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.our-store-section {
+    padding: 20px 0;
+}
+.footer-section {
+    flex-direction: column;
+    align-items: center;
+}
+.btn-text {
+flex-direction: column;
+
+}.discount-image {
+width: 50%;
+height: 175px;
+}
+.discount-row {
+background-size: contain;
+background-position: left bottom;
+
+}
+.discount-text p {
+font-size: 2em;
+
+}
+.best-seller-section h3 {
+font-size: 2.2em;
+line-height: 1.2em;
+}
+.best-seller-item img {
+width: auto;
+object-fit: contain;
+height: auto;
+}
+.footer-content {
+flex-direction: column;
 }
 .footer-logo {
-    width: 100%;
+width: 100%;
 }
 .footer-logo img {
-    width: 200px;
-    margin-bottom: 20px;
+width: 200px;
+margin-bottom: 20px;
 }
 .social-share {
-    margin: 0 0 30px;
+margin: 0 0 30px;
 }
 .footer-menu-links {
-    width: 100%;
-    flex-direction: column;
-    padding: 0 20px;
+width: 100%;
+flex-direction: column;
+padding: 0 20px;
 }
 .about-links, .privacy-links, .customer-services {
-    width: 100%;
-    margin-bottom: 20px;
+width: 100%;
+margin-bottom: 20px;
 }
 .contact-details {
-    width: 100%;
-    padding: 0 20px;
+width: 100%;
+padding: 0 20px;
 }
 .footer-menu-links h3 {
-    font-size: 1.3em;
+font-size: 1.3em;
 }
 .our-story-section .container {
-    padding: 30px 0px;
+padding: 30px 0px;
 }
 .introducing-threadwork .common-heading h2 {
-    padding-left: 20px;
+padding-left: 20px;
 }
 .introducing-threadwork {
 padding: 50px 0 0px;
 }
 .thread-triangle-section .container {
-    padding: 30px 0px;
+padding: 30px 0px;
 }
 .our-team-section .container {
-    padding: 30px 20px;
+padding: 30px 20px;
 }
 .our-story-section .common-heading h1 {
-    padding-left: 15px;
+padding-left: 15px;
 }
 .our-team-col:last-child {
-    margin-bottom: 0;
+margin-bottom: 0;
 }
 .contact-details h3 { font-size: 1.3em;}
 
